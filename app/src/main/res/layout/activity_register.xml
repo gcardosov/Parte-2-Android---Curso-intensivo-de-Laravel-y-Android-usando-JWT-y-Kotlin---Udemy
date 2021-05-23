@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".RegisterActivity"
     >
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="0dp"
         android:textColor="@color/white"
         android:layout_weight="1"
-        android:text="@string/label_login"
+        android:text="@string/label_register"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:paddingTop="12dp"
         android:background="@drawable/bg_gradient"
@@ -32,6 +32,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:text="@string/label_name"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/label_email"
             android:textColor="@color/white"
             />
@@ -40,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:textColor="@color/white"
             />
 
         <TextView
@@ -54,6 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
+            android:textColor="@color/white"
             />
 
         <Button
@@ -61,17 +78,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/btn_login"
+            android:text="@string/btn_register"
             />
 
         <TextView
-            android:id="@+id/tvGoToRegister"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="18dp"
             android:gravity="center"
-            android:text="@string/label_go_to_register"
+            android:text="@string/label_go_to_login"
             android:textColor="@color/white"
 
             />
